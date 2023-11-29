@@ -15,6 +15,12 @@
 		44A43F3E2B1762450053B1FE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F3D2B1762450053B1FE /* RegistrationView.swift */; };
 		44A43F412B17691C0053B1FE /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F402B17691C0053B1FE /* ThreadsTextFieldModifier.swift */; };
 		44A43F432B1772D60053B1FE /* ThreadsFilledButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F422B1772D60053B1FE /* ThreadsFilledButtonModifier.swift */; };
+		44A43F452B177A350053B1FE /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F442B177A350053B1FE /* ThreadsTabView.swift */; };
+		44A43F4A2B17DAD70053B1FE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F492B17DAD70053B1FE /* FeedView.swift */; };
+		44A43F4E2B17DB2F0053B1FE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F4D2B17DB2F0053B1FE /* ExploreView.swift */; };
+		44A43F522B17DBA20053B1FE /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F512B17DBA20053B1FE /* CreateThreadView.swift */; };
+		44A43F572B17DBF30053B1FE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F562B17DBF30053B1FE /* ActivityView.swift */; };
+		44A43F5A2B17DC0F0053B1FE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F592B17DC0F0053B1FE /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +33,12 @@
 		44A43F3D2B1762450053B1FE /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		44A43F402B17691C0053B1FE /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
 		44A43F422B1772D60053B1FE /* ThreadsFilledButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsFilledButtonModifier.swift; sourceTree = "<group>"; };
+		44A43F442B177A350053B1FE /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
+		44A43F492B17DAD70053B1FE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		44A43F4D2B17DB2F0053B1FE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		44A43F512B17DBA20053B1FE /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
+		44A43F562B17DBF30053B1FE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		44A43F592B17DC0F0053B1FE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +124,14 @@
 		44A43F362B1730070053B1FE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				44A43F392B1730B40053B1FE /* Root */,
 				44A43F382B17305C0053B1FE /* Authentication */,
+				44A43F392B1730B40053B1FE /* Root */,
+				44A43F462B1787CE0053B1FE /* TabBar */,
+				44A43F542B17DBE10053B1FE /* Activity */,
+				44A43F532B17DBD30053B1FE /* Profile */,
+				44A43F4F2B17DB8E0053B1FE /* ThreadCreation */,
+				44A43F4B2B17DB1B0053B1FE /* Explore */,
+				44A43F472B17DAC70053B1FE /* Feed */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -157,6 +175,94 @@
 				44A43F422B1772D60053B1FE /* ThreadsFilledButtonModifier.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		44A43F462B1787CE0053B1FE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F442B177A350053B1FE /* ThreadsTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		44A43F472B17DAC70053B1FE /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F482B17DACF0053B1FE /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		44A43F482B17DACF0053B1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F492B17DAD70053B1FE /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44A43F4B2B17DB1B0053B1FE /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F4C2B17DB260053B1FE /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		44A43F4C2B17DB260053B1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F4D2B17DB2F0053B1FE /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44A43F4F2B17DB8E0053B1FE /* ThreadCreation */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F502B17DB960053B1FE /* View */,
+			);
+			path = ThreadCreation;
+			sourceTree = "<group>";
+		};
+		44A43F502B17DB960053B1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F512B17DBA20053B1FE /* CreateThreadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44A43F532B17DBD30053B1FE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F582B17DC050053B1FE /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		44A43F542B17DBE10053B1FE /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F552B17DBE80053B1FE /* View */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		44A43F552B17DBE80053B1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F562B17DBF30053B1FE /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44A43F582B17DC050053B1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44A43F592B17DC0F0053B1FE /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A43F572B17DBF30053B1FE /* ActivityView.swift in Sources */,
+				44A43F522B17DBA20053B1FE /* CreateThreadView.swift in Sources */,
+				44A43F4A2B17DAD70053B1FE /* FeedView.swift in Sources */,
+				44A43F4E2B17DB2F0053B1FE /* ExploreView.swift in Sources */,
+				44A43F5A2B17DC0F0053B1FE /* ProfileView.swift in Sources */,
 				44A43F3C2B1730D70053B1FE /* LoginView.swift in Sources */,
 				44A43F272B172FBC0053B1FE /* ContentView.swift in Sources */,
+				44A43F452B177A350053B1FE /* ThreadsTabView.swift in Sources */,
 				44A43F432B1772D60053B1FE /* ThreadsFilledButtonModifier.swift in Sources */,
 				44A43F412B17691C0053B1FE /* ThreadsTextFieldModifier.swift in Sources */,
 				44A43F252B172FBC0053B1FE /* ThreadsEdApp.swift in Sources */,
