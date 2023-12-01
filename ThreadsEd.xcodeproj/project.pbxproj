@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44929F9F2B19C2270077D0AD /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44929F9E2B19C2270077D0AD /* ThreadCell.swift */; };
 		44A43F252B172FBC0053B1FE /* ThreadsEdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F242B172FBC0053B1FE /* ThreadsEdApp.swift */; };
 		44A43F272B172FBC0053B1FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A43F262B172FBC0053B1FE /* ContentView.swift */; };
 		44A43F292B172FC00053B1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A43F282B172FC00053B1FE /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44929F9E2B19C2270077D0AD /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		44A43F212B172FBC0053B1FE /* ThreadsEd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsEd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A43F242B172FBC0053B1FE /* ThreadsEdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsEdApp.swift; sourceTree = "<group>"; };
 		44A43F262B172FBC0053B1FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				44A43F492B17DAD70053B1FE /* FeedView.swift */,
+				44929F9E2B19C2270077D0AD /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				44A43F3C2B1730D70053B1FE /* LoginView.swift in Sources */,
 				44A43F272B172FBC0053B1FE /* ContentView.swift in Sources */,
 				44A43F452B177A350053B1FE /* ThreadsTabView.swift in Sources */,
+				44929F9F2B19C2270077D0AD /* ThreadCell.swift in Sources */,
 				44A43F432B1772D60053B1FE /* ThreadsFilledButtonModifier.swift in Sources */,
 				44A43F412B17691C0053B1FE /* ThreadsTextFieldModifier.swift in Sources */,
 				44A43F252B172FBC0053B1FE /* ThreadsEdApp.swift in Sources */,
